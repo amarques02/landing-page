@@ -1,0 +1,109 @@
+* {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero-container, footer {
+	background-color: #1f2937;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-container {
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-around;
+	width: 1950px;
+}
+
+.left-block {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	width: 1920px;
+	justify-content: space-around;
+}
+
+.links {
+	display: flex;
+	gap: 15px;
+}
+
+.logo {
+	font-size: 24px;
+	color: #F9FAF8;
+	font-weight: 800;
+}
+
+.links,
+.main-container .secondary-text,
+.call-to-action .secondary-text,
+.subtext {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.main-container .main-text {
+	font-size: 48px;
+	color: #F9FAF8;
+	font-weight: 800;
+}
+
+.main-img {
+	background-color: #6d747d;
+	color: #F9FAF8;
+	width: 500px;
+}
+
+.signup-borderless {
+	background-color: #3882F6;
+	color: #F9FAF8;
+}
+
+.call-to-action {
+	background-color: #3882F6;
+}
+
+.call-to-action .main-text {
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+.info {
+	color: #1F2937;
+	font-weight: 800;
+	font-size: 36px;
+}
+
+.photogrid-item {
+	background-color: #F9FAF8;
+	border: 2px solid #3b82f6;
+	height: 250px;
+	width: 250px;
+}
+
+.subtext {
+	color: #4b5563;
+}
+
+.quote-section {
+	background-color: #E5E7EB;
+}
+
+.quote-text {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 36px;
+	color: #1F2937;
+}
+
+.signup-border {
+	border-radius: 5px;
+	border: 2px solid #F9FAF8;
+	color: #F9FAF8;
+}
