@@ -104,6 +104,7 @@ h2{
 	font-weight: bolder;
 	color: #1F2937;
 	text-align: center;
+	margin-top: 50px;
 }
 
 .row-of-blue-divs {
@@ -112,7 +113,7 @@ h2{
 	flex-direction: row;
 	justify-content: center;
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .box-blue{
@@ -128,6 +129,8 @@ h2{
 	text-align: center;
 	font-size: 18px;
 	margin-bottom: 60px;
+	margin-top: 5px;
+	color: #5a6370;
 }
 
 .third-section {
@@ -196,4 +199,13 @@ h4 {
 	font-size: 18px;
 	font-weight: 800;
 	margin-right: 100px;
+}
+
+footer {
+	background-color: #1F2937;
+	height: 75px;
+	color: #E5E7EB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
