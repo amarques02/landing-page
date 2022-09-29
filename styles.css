@@ -12,6 +12,7 @@ body {
 
 .first-section {
 	background-color: #1F2937;
+	height: 550px;
 }
 
 #header-logo {
@@ -106,10 +107,11 @@ h2{
 }
 
 .row-of-blue-divs {
+	/* border: 2px solid red; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	max-width: 100%;
+	width: 100%;
 	margin-top: 100px;
 }
 
@@ -125,4 +127,73 @@ h2{
 .p-second {
 	text-align: center;
 	font-size: 18px;
+	margin-bottom: 60px;
+}
+
+.third-section {
+	background-color: #E5E7EB;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h3 {
+	font-size: 36px;
+	font-style: Italic;
+	font-weight: lighter;
+	color: #1F2937;
+}
+
+.p-third {
+	font-size: 18px;
+	align-self: flex-end;
+	margin-right: 600px;
+	font-weight: 900;
+}
+
+.fourth-section {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blue-container {
+	background-color:#0085ef;
+	width: 60%;
+	height: 35%;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.left {
+	width: 80%;
+	margin-left: 100px;
+}
+
+h4 {
+	font-size: 24px;
+	color: white;
+}
+
+.p-fourth {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.sign-up-fourth-section {
+	background-color:#0085ef;
+	color: white;
+	width: 135px;
+	height: 40px;
+	border: 2px solid white;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 800;
+	margin-right: 100px;
 }
